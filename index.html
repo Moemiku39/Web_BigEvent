@@ -29,9 +29,9 @@
                         <span class="text-avanter">A</span> 个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <dd><a href="/user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="/user/user_avatar.html" target="fm">更换头像</a></dd>
+                        <dd><a href="/user/user_pwd.html" target="fm">重置密码</a></dd>
                         <dd><a href="javascript:;" id="logout">退出</a></dd>
                     </dl>
                 </li>
@@ -54,7 +54,7 @@
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
                 <ul class="layui-nav layui-nav-tree" lay-filter="test" lay-shrink="all">
                     <li class="layui-nav-item layui-this">
-                        <a href="/home/dashboard.html" target="dashboard">
+                        <a href="/home/dashboard.html" target="fm">
                             <svg class="icon" aria-hidden="true">
                                 <use xlink:href="#icon-home"></use>
                             </svg> 首页</a>
@@ -76,9 +76,9 @@
                                 <use xlink:href="#icon-user"></use>
                             </svg>个人中心</a>
                         <dl class="layui-nav-child layui-nav-child-left">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 基本资料</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 更换头像</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 重置密码</a></dd>
+                            <dd><a href="/user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i> 基本资料</a></dd>
+                            <dd><a href="/user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-app"></i> 更换头像</a></dd>
+                            <dd><a href="/user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i> 重置密码</a></dd>
                         </dl>
                     </li>
                 </ul>
@@ -88,7 +88,7 @@
         <div class="layui-body">
             <!-- 内容主体区域 -->
 
-            <iframe src="home/dashboard.html" class="dashboard" name="dashboard" frameborder="0"></iframe>
+            <iframe src="home/dashboard.html" class="fm" name="fm" frameborder="0"></iframe>
         </div>
 
         <div class="layui-footer">
