@@ -1,0 +1,57 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon {
+    font-size: 16px!important;
+    margin-right: 5px;
+}
+
+.layui-nav-child-left dd {
+    padding-left: 20px;
+}
+
+.layui-footer {
+    text-align: center;
+}
+
+.userinfo {
+    margin-right: 10px;
+}
+
+.dashboard {
+    width: 100%;
+    height: 100%;
+}
+
+.userinfoLeft {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+    border-bottom: 1px solid #233333;
+}
+
+.userinfo .layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avanter {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #009688;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
